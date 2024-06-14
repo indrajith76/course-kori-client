@@ -23,7 +23,7 @@ const Dashboard = () => {
               <Link to="/dashboard/myCourses">My Courses</Link>
             </li>
             <li className="bg-success">
-              <Link to="">Add Course</Link>
+              <Link to="/dashboard/addCourse">Add Course</Link>
             </li>
             <li className="bg-success">
               <Link to="">List of My Course</Link>

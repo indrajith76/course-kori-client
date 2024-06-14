@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Dashboard from "../layouts/Dashboard.jsx";
 import Main from "../layouts/Main.jsx";
+import AddCourse from "../pages/AddCourse/AddCourse.jsx";
 import CheckOut from "../pages/CheckOut/CheckOut.jsx";
 import CourseDetails from "../pages/CourseDetails/CourseDetails.jsx";
 import Home from "../pages/Home/Home";
@@ -66,6 +67,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/viewAllInstructor",
         element: <ViewAllInstructor />,
+      },
+      {
+        path: "/dashboard/addCourse",
+        element: <AddCourse />,
       },
     ],
   },

@@ -34,7 +34,7 @@ const ViewAllUser = () => {
                 <td>{userData?.email}</td>
                 <td>{userData?.role}</td>
                 <td className="flex justify-center">
-                  <div className=" border p-2 rounded-full bg-sky-700">
+                  <div className="border p-2 rounded-full bg-sky-700">
                     {userData.role == "learner" ? (
                       <FaGraduationCap className="text-3xl text-white" />
                     ) : (
