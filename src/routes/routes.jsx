@@ -6,6 +6,7 @@ import CheckOut from "../pages/CheckOut/CheckOut.jsx";
 import CourseDetails from "../pages/CourseDetails/CourseDetails.jsx";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login.jsx";
+import MyCourses from "../pages/MyCourses/MyCourses.jsx";
 import Registration from "../pages/Registration/Registration.jsx";
 import ViewAllInstructor from "../pages/View All Instructor/ViewAllInstructor.jsx";
 import ViewAllCourse from "../pages/ViewAllCourse/ViewAllCourse.jsx";
@@ -71,6 +72,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/addCourse",
         element: <AddCourse />,
+      },
+      {
+        path: "/dashboard/myCourses",
+        element: <MyCourses />,
       },
     ],
   },
