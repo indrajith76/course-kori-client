@@ -8,7 +8,7 @@ const Dashboard = () => {
       <Navbar />
       <div className="drawer lg:drawer-open">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content">
+        <div className="drawer-content m-5">
           <Outlet />
         </div>
         <div className="drawer-side">
@@ -21,6 +21,21 @@ const Dashboard = () => {
             {/* Sidebar content here */}
             <li>
               <Link to="/dashboard/myCourses">My Courses</Link>
+            </li>
+            <li className="bg-success">
+              <Link to="">Add Course</Link>
+            </li>
+            <li className="bg-success">
+              <Link to="">List of My Course</Link>
+            </li>
+            <li className="bg-sky-500">
+              <Link to="/dashboard/viewAllCourse">View All Course</Link>
+            </li>
+            <li className="bg-sky-500">
+              <Link to="/dashboard/viewAllUser">View All User</Link>
+            </li>
+            <li className="bg-sky-500">
+              <Link to="/dashboard/viewAllInstructor">View All Instructor</Link>
             </li>
           </ul>
         </div>

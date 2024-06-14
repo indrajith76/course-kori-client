@@ -12,8 +12,8 @@ const ViewProfile = () => {
           src="https://beforeigosolutions.com/wp-content/uploads/2021/12/dummy-profile-pic-300x300-1.png"
           alt=""
         />
-        <h2 className="text-2xl my-5 text-center">Name: {user?.displayName}</h2>
-        <h2 className="text-2xl my-5 text-center">Email: {user?.email}</h2>
+        <h2 className="text-xl my-5 text-center">Name: {user?.displayName}</h2>
+        <h2 className="text-xl my-5 text-center">Email: {user?.email}</h2>
       </div>
     </div>
   );
