@@ -65,27 +65,6 @@ const AddCourse = () => {
               />
             </div>
             <div>
-              <label
-                htmlFor="rating"
-                className="flex items-center justify-between"
-              >
-                Rating:{" "}
-                <p className="flex items-center font-bold">
-                  {form.rating} <BsStarFill className="text-yellow-500" />
-                </p>
-              </label>
-              <input
-                type="range"
-                id="rating"
-                className="w-full mt-2"
-                name="rating"
-                value={form.rating}
-                onChange={handleChange}
-                min="0"
-                max="5"
-              />
-            </div>
-            <div>
               <label htmlFor="basicPrice">Price:</label>
               <input
                 type="number"

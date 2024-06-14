@@ -22,19 +22,19 @@ const Dashboard = () => {
             <li>
               <Link to="/dashboard/myCourses">My Courses</Link>
             </li>
-            <li className="bg-success">
+            <li>
               <Link to="/dashboard/addCourse">Add Course</Link>
             </li>
-            <li className="bg-success">
+            <li>
               <Link to="">List of My Course</Link>
             </li>
-            <li className="bg-sky-500">
+            <li>
               <Link to="/dashboard/viewAllCourse">View All Course</Link>
             </li>
-            <li className="bg-sky-500">
+            <li>
               <Link to="/dashboard/viewAllUser">View All User</Link>
             </li>
-            <li className="bg-sky-500">
+            <li>
               <Link to="/dashboard/viewAllInstructor">View All Instructor</Link>
             </li>
           </ul>
