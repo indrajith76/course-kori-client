@@ -50,11 +50,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/dashboard/profile",
-        element: (
-          <UserRoute>
-            <ViewProfile />
-          </UserRoute>
-        ),
+        element: <ViewProfile />,
       },
     ],
   },
